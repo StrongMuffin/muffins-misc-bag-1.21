@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "muffins-misc-bag",
+	"version": "${version}",
+	"name": "Muffin's Misc Bag",
+	"description": "A mod featuring various miscellaneous additions.",
+	"authors": [
+		"StrongMuffin"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/muffins-misc-bag/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.muffinmiscbag.MuffinsMiscBag"
+		],
+		"fabric-datagen": [
+			"com.muffinmiscbag.MuffinsMiscBagDataGenerator"
+		],
+		"client": [
+			"com.muffinmiscbag.MMBClient"
+		]
+	},
+	"mixins": [
+		"muffins-misc-bag.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "muffins-misc-bag:refined_steel"
+        }
+    },
+    "result": {
+        "id": "muffins-misc-bag:block_of_steel",
+        "count": 1
+    }
+}
