@@ -20,6 +20,7 @@ public class ModItems {
 
     public static final Item STEEL_SCRAP = registerItem("steel_scrap", new Item(new Item.Settings()));
     public static final Item REFINED_STEEL = registerItem("refined_steel", new Item(new Item.Settings()));
+    public static final Item REINFORCED_STICK = registerItem("reinforced_stick", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item)    {
         return Registry.register(Registries.ITEM, Identifier.of(MuffinsMiscBag.MOD_ID, name), item);
@@ -31,6 +32,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
            entries.add(STEEL_SCRAP);
            entries.add(REFINED_STEEL);
+           entries.add(REINFORCED_STICK);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(STEEL_PICKAXE);

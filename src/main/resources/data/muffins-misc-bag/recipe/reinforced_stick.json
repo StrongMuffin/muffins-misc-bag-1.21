@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/",
+        "M",
+        "/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "M": {
+            "item": "muffins-misc-bag:steel_scrap"
+        }
+    },
+    "result": {
+        "id": "muffins-misc-bag:reinforced_stick",
+        "count": 1
+    }
+}
