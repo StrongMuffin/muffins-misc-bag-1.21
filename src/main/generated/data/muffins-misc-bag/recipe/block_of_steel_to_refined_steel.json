@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "muffins-misc-bag:block_of_steel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "muffins-misc-bag:refined_steel"
+  }
+}

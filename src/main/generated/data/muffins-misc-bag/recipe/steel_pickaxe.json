@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "muffins-misc-bag:refined_steel"
+    },
+    "S": {
+      "item": "muffins-misc-bag:reinforced_stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "muffins-misc-bag:steel_pickaxe"
+  }
+}

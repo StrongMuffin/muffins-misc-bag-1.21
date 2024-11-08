@@ -1,0 +1,11 @@
+// 1.21	2024-11-08T13:47:36.5452954	Muffin's Misc Bag/Model Definitions
+285cfd820a18553f1cdc062abd277abc4830ad03 assets\muffins-misc-bag\models\item\steel_scrap.json
+e7102861aa42b3236a7645525aafff60d864e8bd assets\muffins-misc-bag\models\item\steel_pickaxe.json
+ee8933c6b7299a5201b3617caa49ae454170ac3d assets\muffins-misc-bag\models\block\deep_black_block.json
+ffd576f921a2bb0e444622bfa18822dd77988d97 assets\muffins-misc-bag\models\item\deep_black_block.json
+fa64b27c8ea15b1bbe2452016c50a931a5f281dc assets\muffins-misc-bag\models\item\refined_steel.json
+defc1886ea66170331bd21523a0b27eecf040a6d assets\muffins-misc-bag\models\item\block_of_steel.json
+23260ac38eec1c90c2542591fb980d662a22df86 assets\muffins-misc-bag\models\block\block_of_steel.json
+5c920659ee92041b13d35375bc72566499a54d11 assets\muffins-misc-bag\models\item\reinforced_stick.json
+1869fd6c9d2a42f5ebc31b9aa9889e4d57c536ef assets\muffins-misc-bag\blockstates\deep_black_block.json
+b053bebefeb0262c32e20dd213c51012ad9afb17 assets\muffins-misc-bag\blockstates\block_of_steel.json

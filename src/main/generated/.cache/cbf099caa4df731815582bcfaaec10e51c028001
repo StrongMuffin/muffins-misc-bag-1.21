@@ -1,0 +1,9 @@
+// 1.21	2024-11-08T13:47:36.5464651	Muffin's Misc Bag/Recipes
+8e18205f7f92998bb9fc0f1d2de5435b5270e35c data\muffins-misc-bag\recipe\refined_steel_to_block_of_steel.json
+9f1467345fbc19b9c38c6a186d60ccd38f3ea6da data\muffins-misc-bag\recipe\reinforced_stick.json
+6eaa9043d0cb07243626cb98fc179732b437aeb5 data\muffins-misc-bag\recipe\steel_pickaxe.json
+5033e23013842e4528c27ef67d7daed0a36ce980 data\muffins-misc-bag\recipe\block_of_steel_to_refined_steel.json
+3dcb0259e9c3edb87b8d8229941335712d3865de data\muffins-misc-bag\advancement\recipes\misc\refined_steel_to_block_of_steel.json
+4d4638bd169a5b341842f34f4b062964a477e10b data\muffins-misc-bag\advancement\recipes\tools\steel_pickaxe.json
+846c72c6fba37bb9adfa6118205f034afd81fc6a data\muffins-misc-bag\advancement\recipes\building_blocks\block_of_steel_to_refined_steel.json
+53d93f48140b7e8a8833963af0ec6d2452f05fe6 data\muffins-misc-bag\advancement\recipes\misc\reinforced_stick.json
