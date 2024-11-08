@@ -18,16 +18,16 @@ public class ModItems {
             .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.STEEL, 0, -2.8f))));
 
     public static final Item STEEL_AXE = registerItem("steel_axe", new AxeItem(ModToolMaterials.STEEL, new Item.Settings()
-            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.STEEL, 3, -3.5f))));
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.STEEL, 4, -3.1f))));
 
     public static final Item STEEL_SHOVEL = registerItem("steel_shovel", new ShovelItem(ModToolMaterials.STEEL, new Item.Settings()
             .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.STEEL, 0, -2.8f))));
 
     public static final Item STEEL_HOE = registerItem("steel_hoe", new HoeItem(ModToolMaterials.STEEL, new Item.Settings()
-            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.STEEL, 0, -2.8f))));
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.STEEL, -4, -1.0f))));
 
     public static final Item STEEL_SWORD = registerItem("steel_sword", new SwordItem(ModToolMaterials.STEEL, new Item.Settings()
-            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.STEEL, 3, -2.4f))));
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.STEEL, 2, -2.4f))));
 
     private static Item registerItem(String name, Item item)    {
         return Registry.register(Registries.ITEM, Identifier.of(MuffinsMiscBag.MOD_ID, name), item);
