@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -78,6 +79,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.REINFORCED_STICK)
                 .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
                 .offerTo(recipeExporter);
+        // ARMOR
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_HELMET)
+                 .pattern("SSS")
+                 .pattern("S S")
+                 .input('S', ModItems.REFINED_STEEL)
+                 .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                 .offerTo(recipeExporter);
         // REFINED STEEL
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REFINED_STEEL)
                  .pattern("SS")

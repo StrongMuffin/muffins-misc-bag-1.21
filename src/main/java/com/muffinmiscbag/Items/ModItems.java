@@ -35,7 +35,7 @@ public class ModItems {
     public static final Item STEEL_LEGGINGS = registerItem("steel_leggings", new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
             .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
     public static final Item STEEL_CHESTPLATE = registerItem("steel_chestplate", new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
-            .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))))
+            .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
     public static final Item STEEL_HELMET = registerItem("steel_helmet", new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
             .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
 

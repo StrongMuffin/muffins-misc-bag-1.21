@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_refined_steel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muffins-misc-bag:refined_steel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "muffins-misc-bag:steel_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_refined_steel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "muffins-misc-bag:steel_helmet"
+    ]
+  }
+}
