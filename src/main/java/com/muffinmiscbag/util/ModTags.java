@@ -19,8 +19,6 @@ public class ModTags {
     }
 
     public static class Items   {
-        public static final TagKey<Item> TEST_TAG = createTag("test_tag");
-
         public static final TagKey<Item> IS_STEEL_TOOL = createTag("is_steel_tool");
 
         private static TagKey<Item> createTag(String name)  {

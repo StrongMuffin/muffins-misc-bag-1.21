@@ -15,9 +15,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ModTags.Items.TEST_TAG);
-
         getOrCreateTagBuilder(ModTags.Items.IS_STEEL_TOOL)
-                .add(ModItems.STEEL_PICKAXE);
+                .add(ModItems.STEEL_PICKAXE)
+                .add(ModItems.STEEL_AXE)
+                .add(ModItems.STEEL_SHOVEL)
+                .add(ModItems.STEEL_HOE)
+                .add(ModItems.STEEL_SWORD);
     }
 }

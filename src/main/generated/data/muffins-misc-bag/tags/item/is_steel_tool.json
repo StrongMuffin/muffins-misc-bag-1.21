@@ -1,5 +1,9 @@
 {
   "values": [
-    "muffins-misc-bag:steel_pickaxe"
+    "muffins-misc-bag:steel_pickaxe",
+    "muffins-misc-bag:steel_axe",
+    "muffins-misc-bag:steel_shovel",
+    "muffins-misc-bag:steel_hoe",
+    "muffins-misc-bag:steel_sword"
   ]
 }

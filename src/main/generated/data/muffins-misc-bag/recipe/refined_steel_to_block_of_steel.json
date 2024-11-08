@@ -1,13 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
       "item": "muffins-misc-bag:refined_steel"
     }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
   ],
   "result": {
-    "count": 9,
+    "count": 1,
     "id": "muffins-misc-bag:block_of_steel"
   }
 }

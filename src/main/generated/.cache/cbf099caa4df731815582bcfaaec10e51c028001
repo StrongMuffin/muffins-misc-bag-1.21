@@ -1,9 +1,19 @@
-// 1.21	2024-11-08T13:47:36.5464651	Muffin's Misc Bag/Recipes
-8e18205f7f92998bb9fc0f1d2de5435b5270e35c data\muffins-misc-bag\recipe\refined_steel_to_block_of_steel.json
-9f1467345fbc19b9c38c6a186d60ccd38f3ea6da data\muffins-misc-bag\recipe\reinforced_stick.json
+// 1.21	2024-11-08T18:35:51.496793	Muffin's Misc Bag/Recipes
+a5bf8bd39eb2bc7e8960fcf084ea0d08ba35131e data\muffins-misc-bag\recipe\steel_shovel.json
+1bab4eb2528e4ce23343d04a773426a070cf861e data\muffins-misc-bag\recipe\refined_steel_to_block_of_steel.json
+846c72c6fba37bb9adfa6118205f034afd81fc6a data\muffins-misc-bag\advancement\recipes\misc\block_of_steel_to_refined_steel.json
 6eaa9043d0cb07243626cb98fc179732b437aeb5 data\muffins-misc-bag\recipe\steel_pickaxe.json
-5033e23013842e4528c27ef67d7daed0a36ce980 data\muffins-misc-bag\recipe\block_of_steel_to_refined_steel.json
-3dcb0259e9c3edb87b8d8229941335712d3865de data\muffins-misc-bag\advancement\recipes\misc\refined_steel_to_block_of_steel.json
+9621226fd173451bbef324cf6c469609f49ee84c data\muffins-misc-bag\recipe\refined_steel.json
+1b55f7bab4847e24fc685136e486838816459c20 data\muffins-misc-bag\recipe\block_of_steel_to_refined_steel.json
 4d4638bd169a5b341842f34f4b062964a477e10b data\muffins-misc-bag\advancement\recipes\tools\steel_pickaxe.json
-846c72c6fba37bb9adfa6118205f034afd81fc6a data\muffins-misc-bag\advancement\recipes\building_blocks\block_of_steel_to_refined_steel.json
+d593f8cead40c82ed6e6115ba24b0ffdf863b456 data\muffins-misc-bag\advancement\recipes\tools\steel_shovel.json
+a7eb8961f4fc006d170a0da788a1a373e5748ebd data\muffins-misc-bag\advancement\recipes\building_blocks\refined_steel_to_block_of_steel.json
+9f1467345fbc19b9c38c6a186d60ccd38f3ea6da data\muffins-misc-bag\recipe\reinforced_stick.json
+0aadce687d14403040a6c4c6295a0a51d1e75bb3 data\muffins-misc-bag\advancement\recipes\combat\steel_sword.json
+ccdceeba2e6071a6b597978f66d119edcfb87b98 data\muffins-misc-bag\recipe\steel_sword.json
+f99ec2fabab570a7efcadbd350cd81ee7e7ec73c data\muffins-misc-bag\advancement\recipes\tools\steel_axe.json
+1f6082f01c769ec25acb10416798467797373759 data\muffins-misc-bag\advancement\recipes\tools\steel_hoe.json
+67d55296487df58c54ca9c62d83fa2d927f53c66 data\muffins-misc-bag\recipe\steel_axe.json
+dbe7d5f71876c3f0375295feaa089afb8b19eb0c data\muffins-misc-bag\recipe\steel_hoe.json
 53d93f48140b7e8a8833963af0ec6d2452f05fe6 data\muffins-misc-bag\advancement\recipes\misc\reinforced_stick.json
+5e80595648ad65786bb4b78ac8bc9634f937e59c data\muffins-misc-bag\advancement\recipes\misc\refined_steel.json

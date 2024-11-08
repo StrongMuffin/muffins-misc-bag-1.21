@@ -3,9 +3,7 @@ package com.muffinmiscbag.Items;
 import com.muffinmiscbag.Items.materials.ModToolMaterials;
 import com.muffinmiscbag.MuffinsMiscBag;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -18,6 +16,18 @@ public class ModItems {
 
     public static final Item STEEL_PICKAXE = registerItem("steel_pickaxe", new PickaxeItem(ModToolMaterials.STEEL, new Item.Settings()
             .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.STEEL, 0, -2.8f))));
+
+    public static final Item STEEL_AXE = registerItem("steel_axe", new AxeItem(ModToolMaterials.STEEL, new Item.Settings()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.STEEL, 3, -3.5f))));
+
+    public static final Item STEEL_SHOVEL = registerItem("steel_shovel", new ShovelItem(ModToolMaterials.STEEL, new Item.Settings()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.STEEL, 0, -2.8f))));
+
+    public static final Item STEEL_HOE = registerItem("steel_hoe", new HoeItem(ModToolMaterials.STEEL, new Item.Settings()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.STEEL, 0, -2.8f))));
+
+    public static final Item STEEL_SWORD = registerItem("steel_sword", new SwordItem(ModToolMaterials.STEEL, new Item.Settings()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.STEEL, 3, -2.4f))));
 
     private static Item registerItem(String name, Item item)    {
         return Registry.register(Registries.ITEM, Identifier.of(MuffinsMiscBag.MOD_ID, name), item);
@@ -33,6 +43,12 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(STEEL_PICKAXE);
+            entries.add(STEEL_AXE);
+            entries.add(STEEL_SHOVEL);
+            entries.add(STEEL_HOE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
+            entries.add(STEEL_SWORD);
         });
     }
 }

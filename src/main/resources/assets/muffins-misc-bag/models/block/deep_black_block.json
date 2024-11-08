@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "muffins-misc-bag:block/deep_black_block"
-  }
-}

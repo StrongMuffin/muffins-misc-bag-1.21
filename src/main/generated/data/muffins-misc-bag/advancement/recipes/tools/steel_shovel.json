@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block_of_steel": {
+    "has_refined_steel": {
       "conditions": {
         "items": [
           {
-            "items": "muffins-misc-bag:block_of_steel"
+            "items": "muffins-misc-bag:refined_steel"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "muffins-misc-bag:refined_steel_to_block_of_steel"
+        "recipe": "muffins-misc-bag:steel_shovel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_block_of_steel"
+      "has_refined_steel"
     ]
   ],
   "rewards": {
     "recipes": [
-      "muffins-misc-bag:refined_steel_to_block_of_steel"
+      "muffins-misc-bag:steel_shovel"
     ]
   }
 }

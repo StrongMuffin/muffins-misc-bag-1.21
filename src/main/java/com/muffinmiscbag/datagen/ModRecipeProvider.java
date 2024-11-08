@@ -23,6 +23,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter recipeExporter) {
+        // REINFORCED STICK
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_STICK)
                 .pattern("S")
                 .pattern("M")
@@ -31,7 +32,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('M', ModItems.STEEL_SCRAP)
                 .criterion(hasItem(ModItems.STEEL_SCRAP), conditionsFromItem(ModItems.STEEL_SCRAP))
                 .offerTo(recipeExporter);
-
+        // TOOLS/WEAPONS
+        // STEEL PICKAXE
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_PICKAXE)
                  .pattern("MMM")
                  .pattern(" S ")
@@ -40,14 +42,61 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                  .input('S', ModItems.REINFORCED_STICK)
                  .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
                  .offerTo(recipeExporter);
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.BLOCK_OF_STEEL, 9)
-                 .input(ModItems.REFINED_STEEL)
-                 .criterion(hasItem(ModBlocks.BLOCK_OF_STEEL), conditionsFromItem(ModBlocks.BLOCK_OF_STEEL))
+        // STEEL AXE
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_AXE)
+                 .pattern("MM")
+                 .pattern("MS")
+                 .pattern(" S")
+                 .input('M', ModItems.REFINED_STEEL)
+                 .input('S', ModItems.REINFORCED_STICK)
+                 .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                 .offerTo(recipeExporter);
+        // STEEL SHOVEL
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_SHOVEL)
+                .pattern(" M")
+                .pattern(" S")
+                .pattern(" S")
+                .input('M', ModItems.REFINED_STEEL)
+                .input('S', ModItems.REINFORCED_STICK)
+                .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                .offerTo(recipeExporter);
+        // STEEL HOE
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_HOE)
+                .pattern("MM")
+                .pattern(" S")
+                .pattern(" S")
+                .input('M', ModItems.REFINED_STEEL)
+                .input('S', ModItems.REINFORCED_STICK)
+                .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                .offerTo(recipeExporter);
+        // STEEL SWORD
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_SWORD)
+                .pattern("M")
+                .pattern("M")
+                .pattern("S")
+                .input('M', ModItems.REFINED_STEEL)
+                .input('S', ModItems.REINFORCED_STICK)
+                .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                .offerTo(recipeExporter);
+        // REFINED STEEL
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REFINED_STEEL)
+                 .pattern("SS")
+                 .pattern("SS")
+                 .input('S', ModItems.STEEL_SCRAP)
+                 .criterion(hasItem(ModItems.STEEL_SCRAP), conditionsFromItem(ModItems.STEEL_SCRAP))
+                 .offerTo(recipeExporter);
+        // BLOCK OF STEEL (CRAFTING BLOCK)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_STEEL)
+                 .pattern("SSS")
+                 .pattern("SSS")
+                 .pattern("SSS")
+                 .input('S', ModItems.REFINED_STEEL)
+                 .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
                  .offerTo(recipeExporter, Identifier.of(MuffinsMiscBag.MOD_ID, "refined_steel_to_block_of_steel"));
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModItems.REFINED_STEEL, 1)
-                .input(ModBlocks.BLOCK_OF_STEEL)
+        // BLOCK OF STEEL (UN-CRAFTING)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REFINED_STEEL, 9)
+                .pattern("B")
+                .input('B', ModBlocks.BLOCK_OF_STEEL)
                 .criterion(hasItem(ModBlocks.BLOCK_OF_STEEL), conditionsFromItem(ModBlocks.BLOCK_OF_STEEL))
                 .offerTo(recipeExporter, Identifier.of(MuffinsMiscBag.MOD_ID, "block_of_steel_to_refined_steel"));
     }

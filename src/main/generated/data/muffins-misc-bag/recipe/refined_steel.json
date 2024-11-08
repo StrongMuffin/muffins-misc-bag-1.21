@@ -2,15 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": {
-      "item": "muffins-misc-bag:block_of_steel"
+    "S": {
+      "item": "muffins-misc-bag:steel_scrap"
     }
   },
   "pattern": [
-    "B"
+    "SS",
+    "SS"
   ],
   "result": {
-    "count": 9,
+    "count": 1,
     "id": "muffins-misc-bag:refined_steel"
   }
 }
