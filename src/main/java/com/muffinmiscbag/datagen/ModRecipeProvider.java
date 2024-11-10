@@ -86,6 +86,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                  .input('S', ModItems.REFINED_STEEL)
                  .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
                  .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_CHESTPLATE)
+                 .pattern("S S")
+                 .pattern("SSS")
+                 .pattern("SSS")
+                 .input('S', ModItems.REFINED_STEEL)
+                 .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                 .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_LEGGINGS)
+                 .pattern("SSS")
+                 .pattern("S S")
+                 .pattern("S S")
+                 .input('S', ModItems.REFINED_STEEL)
+                 .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                 .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_BOOTS)
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.REFINED_STEEL)
+                .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
+                .offerTo(recipeExporter);
         // REFINED STEEL
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REFINED_STEEL)
                  .pattern("SS")

@@ -1,4 +1,4 @@
-// 1.21	2024-11-09T00:29:22.0263815	Muffin's Misc Bag/Model Definitions
+// 1.21	2024-11-09T01:48:19.4675644	Muffin's Misc Bag/Model Definitions
 75495f0d07d563a006359a800dc774f8d2273965 assets\muffins-misc-bag\models\item\steel_boots_lapis_trim.json
 ffd576f921a2bb0e444622bfa18822dd77988d97 assets\muffins-misc-bag\models\item\deep_black_block.json
 5c6b655f8cfea587429543376e39822f10837e98 assets\muffins-misc-bag\models\item\steel_leggings.json
@@ -19,8 +19,8 @@ deff8db0cdaf18742ae854f5b3ceb9dea9c5f2d3 assets\muffins-misc-bag\models\item\ste
 f9cd6d6b25a1900eca711af27a7df7510d149921 assets\muffins-misc-bag\models\item\steel_boots_copper_trim.json
 defc1886ea66170331bd21523a0b27eecf040a6d assets\muffins-misc-bag\models\item\block_of_steel.json
 27ed84ff371d88039d7dac9a2a2bd375c8c53ca7 assets\muffins-misc-bag\models\item\steel_axe.json
-4e96591e8c13736ded3ea7100fa0c2faa4e5a06b assets\muffins-misc-bag\models\item\steel_chestplate_iron_trim.json
 5c920659ee92041b13d35375bc72566499a54d11 assets\muffins-misc-bag\models\item\reinforced_stick.json
+4e96591e8c13736ded3ea7100fa0c2faa4e5a06b assets\muffins-misc-bag\models\item\steel_chestplate_iron_trim.json
 39346f65b525db00fb1ab44b98b0b813dfa2d86c assets\muffins-misc-bag\models\item\steel_chestplate_lapis_trim.json
 48313ad09c21a8b4143d4f124a1d27fd33da461f assets\muffins-misc-bag\models\item\steel_helmet_iron_trim.json
 7826bdcba3f8eb63a94e2211404283de97d85fa1 assets\muffins-misc-bag\models\item\steel_leggings_copper_trim.json
@@ -39,8 +39,8 @@ e61d385ef0308720dc6a5b9b83a963c6e1fa48c4 assets\muffins-misc-bag\models\item\ste
 b79fa454bd5f3d98b2bb8c0b46f68ab47cf3afeb assets\muffins-misc-bag\models\item\steel_chestplate_netherite_trim.json
 4761a1095737e9a8077b9651f0f49719fba141ab assets\muffins-misc-bag\models\item\steel_boots.json
 45176016ff214a303239479a5f6774d5e42d05bf assets\muffins-misc-bag\models\item\steel_helmet_amethyst_trim.json
-340a34aa10a1c79cc4afef81b6c5b7efe23117f5 assets\muffins-misc-bag\models\item\steel_chestplate_quartz_trim.json
 607cfe1a99ad0d9fc1ac9854181b9813a3095f8f assets\muffins-misc-bag\models\item\steel_boots_iron_trim.json
+340a34aa10a1c79cc4afef81b6c5b7efe23117f5 assets\muffins-misc-bag\models\item\steel_chestplate_quartz_trim.json
 8bab17896a6e24e58e25ccb3ce448bf27e16abd6 assets\muffins-misc-bag\models\item\steel_leggings_quartz_trim.json
 9d553ac8ce70e8713df4bee73257e7ed0d810ca1 assets\muffins-misc-bag\models\item\steel_hoe.json
 e8d1246bdf539e25a96d37baa453e9f063808482 assets\muffins-misc-bag\models\item\steel_helmet_emerald_trim.json
@@ -48,8 +48,8 @@ e8d1246bdf539e25a96d37baa453e9f063808482 assets\muffins-misc-bag\models\item\ste
 aef3565eac441d251a4ec72a16fbb622054c09ff assets\muffins-misc-bag\models\item\steel_helmet_gold_trim.json
 696884552f49f7775264ca4483725de75f59058e assets\muffins-misc-bag\models\item\steel_boots_quartz_trim.json
 633a0521ab2843ec1de7d2028ec1dece79d6378c assets\muffins-misc-bag\models\item\steel_boots_netherite_trim.json
-fa64b27c8ea15b1bbe2452016c50a931a5f281dc assets\muffins-misc-bag\models\item\refined_steel.json
 7e1b8e1fab53d0393a140f08f5aa06d6ab995716 assets\muffins-misc-bag\models\item\steel_leggings_redstone_trim.json
+fa64b27c8ea15b1bbe2452016c50a931a5f281dc assets\muffins-misc-bag\models\item\refined_steel.json
 23260ac38eec1c90c2542591fb980d662a22df86 assets\muffins-misc-bag\models\block\block_of_steel.json
 88b280bc33aaad3cd80b17dcbb935120135c877c assets\muffins-misc-bag\models\item\steel_boots_emerald_trim.json
 fb017964be40d352d3f42485f7610c9e7ddc9a63 assets\muffins-misc-bag\models\item\steel_sword.json
