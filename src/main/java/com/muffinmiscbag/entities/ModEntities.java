@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModEntities {
     public static final EntityType<CRTRobotEntity> CRT_ROBOT_ENTITY_ENTITY_TYPE = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(MuffinsMiscBag.MOD_ID, "crtrobot"),
-            EntityType.Builder.create(CRTRobotEntity::new, SpawnGroup.CREATURE).dimensions(1f, 1f).build());
+            EntityType.Builder.create(CRTRobotEntity::new, SpawnGroup.CREATURE).dimensions(1f, 1.45f).build());
 
     public static DefaultAttributeContainer.Builder createAttributes()  {
         return CRTRobotEntity.createCRTRobotAttributes();
