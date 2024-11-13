@@ -1,4 +1,4 @@
-// 1.21	2024-11-11T00:11:44.5420357	Muffin's Misc Bag/Recipes
+// 1.21	2024-11-12T15:45:56.7733908	Muffin's Misc Bag/Recipes
 a5bf8bd39eb2bc7e8960fcf084ea0d08ba35131e data\muffins-misc-bag\recipe\steel_shovel.json
 1bab4eb2528e4ce23343d04a773426a070cf861e data\muffins-misc-bag\recipe\refined_steel_to_block_of_steel.json
 2fd09e5732d01f13681fdaffc57e7c68452171fc data\muffins-misc-bag\recipe\steel_leggings.json
@@ -19,9 +19,11 @@ f99ec2fabab570a7efcadbd350cd81ee7e7ec73c data\muffins-misc-bag\advancement\recip
 6eaa9043d0cb07243626cb98fc179732b437aeb5 data\muffins-misc-bag\recipe\steel_pickaxe.json
 4d4638bd169a5b341842f34f4b062964a477e10b data\muffins-misc-bag\advancement\recipes\tools\steel_pickaxe.json
 517e11125e98f473d6a0eb3b44789df5db8feef6 data\muffins-misc-bag\advancement\recipes\combat\steel_chestplate.json
+458c9f31ac0b3c3b66af82bc931099606f2b29cd data\muffins-misc-bag\recipe\mining_helmet.json
 a7eb8961f4fc006d170a0da788a1a373e5748ebd data\muffins-misc-bag\advancement\recipes\building_blocks\refined_steel_to_block_of_steel.json
 af7d5a94ca18b262431b3dec38a1a8900edeeac6 data\muffins-misc-bag\advancement\recipes\combat\steel_boots.json
 1892d07aec25cc9dcf0f71edf8b9bd0f4d714005 data\muffins-misc-bag\recipe\steel_boots.json
 9f1467345fbc19b9c38c6a186d60ccd38f3ea6da data\muffins-misc-bag\recipe\reinforced_stick.json
 1f6082f01c769ec25acb10416798467797373759 data\muffins-misc-bag\advancement\recipes\tools\steel_hoe.json
+d667bd77a5894d1320d04fad9d4e9aeaee2bc2bd data\muffins-misc-bag\advancement\recipes\combat\mining_helmet.json
 dbe7d5f71876c3f0375295feaa089afb8b19eb0c data\muffins-misc-bag\recipe\steel_hoe.json

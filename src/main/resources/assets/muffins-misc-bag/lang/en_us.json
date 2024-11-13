@@ -12,6 +12,10 @@
   "item.muffins-misc-bag.steel_leggings": "Steel Leggings",
   "item.muffins-misc-bag.steel_boots": "Steel Boots",
 
+  "item.muffins-misc-bag.mining_helmet": "Mining Helmet",
+
+  "item.muffins-misc-bag.crt_robot_spawn_egg": "CRT Robot Spawn Egg",
+
   "block.muffins-misc-bag.deep_black_block": "Deep Black Block",
   "block.muffins-misc-bag.block_of_steel": "Block of Steel"
 }

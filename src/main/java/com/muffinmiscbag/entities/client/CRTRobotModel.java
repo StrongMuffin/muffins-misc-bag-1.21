@@ -1,5 +1,6 @@
 package com.muffinmiscbag.entities.client;
 
+import com.muffinmiscbag.entities.animation.ModAnimations;
 import com.muffinmiscbag.entities.custom.CRTRobotEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
@@ -54,11 +55,14 @@ public class CRTRobotModel<T extends CRTRobotEntity> extends SinglePartEntityMod
 
 	@Override
 	public ModelPart getPart() {
-		return null;
+		return crtrobot;
 	}
 
 	@Override
 	public void setAngles(T entity, float limbAngle, float limbDistance, float animationProgress, float headYaw, float headPitch) {
+		this.getPart().traverse().forEach(ModelPart::resetTransform);
 
+		this.animateMovement(ModAnimations.WALKING, limbAngle, limbDistance, 2f, 2.5f);
+		this.updateAnimation(entity.idleAnimationState, ModAnimations.IDLE, animationProgress, 1f);
 	}
 }

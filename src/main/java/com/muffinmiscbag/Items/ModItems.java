@@ -3,6 +3,8 @@ package com.muffinmiscbag.Items;
 import com.muffinmiscbag.Items.materials.ModArmorMaterials;
 import com.muffinmiscbag.Items.materials.ModToolMaterials;
 import com.muffinmiscbag.MuffinsMiscBag;
+import com.muffinmiscbag.entities.ModEntities;
+import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -39,6 +41,11 @@ public class ModItems {
     public static final Item STEEL_HELMET = registerItem("steel_helmet", new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
             .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
 
+    public static final Item MINING_HELMET = registerItem("mining_helmet", new ArmorItem(ModArmorMaterials.MINING_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(7))));
+
+    public static final Item CRT_ROBOT_SPAWN_EGG = registerItem("crt_robot_spawn_egg", new SpawnEggItem(ModEntities.CRT_ROBOT_ENTITY_ENTITY_TYPE, 0xfffed9, 0x1cc93d, new Item.Settings()));
+
     private static Item registerItem(String name, Item item)    {
         return Registry.register(Registries.ITEM, Identifier.of(MuffinsMiscBag.MOD_ID, name), item);
     }
@@ -56,15 +63,18 @@ public class ModItems {
             entries.add(STEEL_AXE);
             entries.add(STEEL_SHOVEL);
             entries.add(STEEL_HOE);
+
+            entries.add(MINING_HELMET);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(STEEL_SWORD);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(STEEL_HELMET);
             entries.add(STEEL_CHESTPLATE);
             entries.add(STEEL_LEGGINGS);
             entries.add(STEEL_BOOTS);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(entries -> {
+            entries.add(CRT_ROBOT_SPAWN_EGG);
         });
     }
 }

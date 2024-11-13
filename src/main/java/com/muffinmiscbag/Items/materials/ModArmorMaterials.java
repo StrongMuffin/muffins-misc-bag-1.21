@@ -4,6 +4,7 @@ import com.muffinmiscbag.Items.ModItems;
 import com.muffinmiscbag.MuffinsMiscBag;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -26,6 +27,12 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.BODY, 4);
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(ModItems.REFINED_STEEL),
                     List.of(new ArmorMaterial.Layer(Identifier.of(MuffinsMiscBag.MOD_ID, "steel"))), 0, 0));
+
+    public static final RegistryEntry<ArmorMaterial> MINING_ARMOR_MATERIAL = registerArmorMaterial("mining_helmet",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.HELMET, 2);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, () -> Ingredient.ofItems(Items.GOLD_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(MuffinsMiscBag.MOD_ID, "mining_helmet"))), 0, 0));
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {

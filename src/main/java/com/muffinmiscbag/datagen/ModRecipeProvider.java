@@ -106,6 +106,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.REFINED_STEEL)
                 .criterion(hasItem(ModItems.REFINED_STEEL), conditionsFromItem(ModItems.REFINED_STEEL))
                 .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.MINING_HELMET)
+                .pattern(" S ")
+                .pattern("GGG")
+                .pattern("G G")
+                .input('S', Items.GLOWSTONE)
+                .input('G', Items.GOLD_INGOT)
+                .criterion(hasItem(Items.GLOWSTONE), conditionsFromItem(Items.GLOWSTONE))
+                .offerTo(recipeExporter);
         // REFINED STEEL
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REFINED_STEEL)
                  .pattern("SS")

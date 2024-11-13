@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "pattern": [
+    " S ",
+    "GGG",
+    "G G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "muffins-misc-bag:mining_helmet"
+  }
+}

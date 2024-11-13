@@ -4,6 +4,7 @@ import com.muffinmiscbag.Blocks.ModBlocks;
 import com.muffinmiscbag.Items.ModItems;
 import com.muffinmiscbag.entities.ModEntities;
 import com.muffinmiscbag.entities.custom.CRTRobotEntity;
+import com.muffinmiscbag.world.ModEntitySpawns;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -19,6 +20,7 @@ public class MuffinsMiscBag implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEntitySpawns.addEntitySpawns();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.CRT_ROBOT_ENTITY_ENTITY_TYPE, CRTRobotEntity.createCRTRobotAttributes());
 

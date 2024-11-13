@@ -6,8 +6,12 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Model;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.util.Identifier;
+
+import java.util.Optional;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -36,5 +40,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_BOOTS));
+        // Mining Helmet
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MINING_HELMET));
+        // Spawn Eggs
+        itemModelGenerator.register(ModItems.CRT_ROBOT_SPAWN_EGG,
+                new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));
     }
 }
